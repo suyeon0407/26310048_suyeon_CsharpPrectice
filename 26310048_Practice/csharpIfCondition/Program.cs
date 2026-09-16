@@ -120,29 +120,27 @@
             //    Console.WriteLine(keyInfo.Key);
             //}
 
-            {
-                string? input = Console.ReadLine();
-                int age = Int32.Parse(input);
+            //{
+            //    string? input = Console.ReadLine();
+            //    int age = Int32.Parse(input);
 
-                if (18 <= age)
-                    Console.WriteLine("성인");
-                else
-                    Console.WriteLine("미성년자");
-            }
-            {
-                string? input = Console.ReadLine();
-                int ivalue = Int32.Parse(input);
-                if (0 == ivalue % 3)
-                {
-                    Console.WriteLine("3의 배수");
-                }
-                else
-                {
-                    Console.WriteLine("3의배수가 아님");
-                }
-            }
-
-
+            //    if (18 <= age)
+            //        Console.WriteLine("성인");
+            //    else
+            //        Console.WriteLine("미성년자");
+            //}
+            //{
+            //    string? input = Console.ReadLine();
+            //    int ivalue = Int32.Parse(input);
+            //    if (0 == ivalue % 3)
+            //    {
+            //        Console.WriteLine("3의 배수");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("3의배수가 아님");
+            //    }
+            //}
 
         }
     }
