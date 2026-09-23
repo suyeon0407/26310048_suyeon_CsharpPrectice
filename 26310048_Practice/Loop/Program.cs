@@ -2,6 +2,10 @@
 
 namespace Loop
 {
+    class Player
+    {
+
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -44,10 +48,19 @@ namespace Loop
             //Console.WriteLine($"1~100 sum :{sum}");
 
             //한글 문자 출력
-            for(var k = '가'; k<= '힣'; ++k)
-                Console.Write(k);
+            //for(var k = '가'; k<= '힣'; ++k)
+            //    Console.Write(k);
 
-            Console.WriteLine();
+            //Console.WriteLine();
+
+            //continue 연습
+            //for(var i = 0; i<10; ++i)
+            //{
+            //    if(i % 2 ==0)
+            //        continue;
+
+            //    Console.WriteLine(i);
+            //}
 
 
         }
